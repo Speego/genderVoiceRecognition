@@ -57,5 +57,4 @@ def format_sig(data, channels, method = 'first'):
                 new_sig.append(new_val)
     except:
         new_sig = []
-        print("ERROR")
     return new_sig
